@@ -7,4 +7,7 @@ console.log('' + stringUno + '' + stringDos);
 console.log(`${stringUno} ${stringDos}`);
 
 //Ejercicio 2
+// hacer esto antes y despues cambiar matematica mkdir src mkdir src/modules
+
+
 
