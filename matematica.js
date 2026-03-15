@@ -19,3 +19,5 @@ function multiplicar(num1 , num2){
 let dividir = (num1 , num2) => {
 return num1 / num2
 }
+
+//export {sumar, restar, multiplicar, dividir, PI}
