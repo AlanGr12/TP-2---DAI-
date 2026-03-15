@@ -22,4 +22,5 @@ const resultadoCuatro = dividir(10, 2)
 console.log(resultadoCuatro)
 
 console.log(`Numero ${PI}`)
-
+//Ejercicio 3
+// crear la carpeta models con mkdir src/models y dsp la carpeta alumno.js
