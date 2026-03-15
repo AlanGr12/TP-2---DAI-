@@ -31,3 +31,14 @@ const nuevoAlumnoDos = new Alumno("Mati",21356878)
 
 console.log(`El dni del ${nuevoAlumno.username} es ${nuevoAlumno.DNI}`)
 console.log(`El dni del ${nuevoAlumnoDos.username} es ${nuevoAlumnoDos.DNI}`)
+//Ejercicio 4
+import fs from 'fs'
+
+function copiar(entrada, salida){
+const contenido  = fs.readFileSync(entrada,'utf-8')
+fs.writeFileSync(salida, contenido)
+}
+
+
+copiar('./entrada.txt', './salida.txt')
+console.log(`El archivo se creo perfectamente`)
