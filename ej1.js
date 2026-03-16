@@ -1,5 +1,5 @@
-const stringUno = console.log('Hola');
-const stringDos = console.log('Todo Bien?'); 
+const stringUno = 'Hola';
+const stringDos = 'Todo Bien?'; 
 
-console.log('' + stringUno + '' + stringDos);
+console.log( stringUno + ' ' + stringDos);
 console.log(`${stringUno} ${stringDos}`);
